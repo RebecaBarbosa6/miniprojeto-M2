@@ -1,14 +1,14 @@
 body { 
     background-color:#132A13;
     color: #ECF39E;
-    margin: 100px;
-    padding: 100px;
+    margin: 50px;
+    padding: 50px;
 }
 
 h1{
     font-family: "Old Standard TT", serif;
-    font-weight: 400;
-    font-size: 400%;
+    font-weight: 100;
+    font-size: 300%;
     font-style: normal;   
     display: flex;
     justify-content: center;

@@ -1,12 +1,12 @@
 body {
     font-family: "Old Standard TT", serif;
-    font-weight: 400;
+    font-weight: 200;
     font-size: 130%;
     font-style: normal;  
     background-color:#132A13;
     color: #ECF39E;
     margin: 0;
-    padding: 100px;
+    padding: 50px;
 }
 
 header {
@@ -16,8 +16,8 @@ header {
     font-family: "Dancing Script", cursive;
     color: #bc4749;
     font-optical-sizing: auto;
-    font-weight: 400;
-    font-size: 200%;
+    font-weight: 300;
+    font-size: 100%;
     font-style: normal; 
    
 }
