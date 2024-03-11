@@ -1,52 +1,59 @@
-body { 
-    background-color:#132A13;
+body {
+    background-color: #132A13;
     color: #ECF39E;
-    margin: 50px;
-    padding: 50px;
+    margin: 5vw; 
+    padding: 5vw; 
 }
 
-h1{
+h1 {
     font-family: "Old Standard TT", serif;
     font-weight: 100;
-    font-size: 300%;
-    font-style: normal;   
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-size: 3dvw; 
+    font-style: normal;
+    text-align: center; 
 }
 
-h2{
+h2 {
     font-family: "Dancing Script", cursive;
     color: #bc4749;
-    font-weight: 400;
-    font-size: 400%;
-    font-style: normal; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    font-weight: 100;
+    font-size: 4vw; 
+    font-style: normal;
+    text-align: center; 
 }
 
- section{
+section {
     font-family: "Old Standard TT", serif;
-    font-weight: 400;
-    font-size: 150%;
-    font-style: normal;   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: stretch;
+    font-weight: 200;
+    font-size: 1.5vw; 
+    font-style: normal;
+    text-align: center; 
 }
 
-button{
-   font-family: "Old Standard TT", serif;
-   font-weight: 400;
-   font-size: 150%;
-   background-color: #bc4749;
-   color: white;
-   padding: 15px 25px;
-   border-radius: 10px;
-   text-decoration: none;
-   box-shadow: none;
-   border: none;
-   cursor: pointer;
+button {
+    font-family: "Old Standard TT", serif;
+    font-weight: 200;
+    font-size: 1.5vw;
+    background-color: #bc4749;
+    color: white;
+    padding: 1.5vw 2.5vw; 
+    border-radius: 1vw; 
+    box-shadow: none;
+    border: none;
+    cursor: pointer;
+    display: block; 
+    margin: 1vw auto; 
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+
+    h1,
+    h2,
+    section,
+    button {
+        font-size: 16px; 
+    }
 }

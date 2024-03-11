@@ -1,15 +1,3 @@
-  // Função para redirecionar o usuário
-  //function redirecionar() {
-    // Substitua 'caminho/do/arquivo-ou-pasta' pelo caminho desejado
-  //  window.location.href("index.html");
-//}
-
-// Adiciona um event listener ao botão
-//document.getElementById('inicio').addEventListener('click', redirecionar);
-
-
-
-
 
 class Dado {
     constructor(Planta, Espécie) {
