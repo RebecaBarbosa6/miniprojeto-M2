@@ -1,0 +1,81 @@
+body {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-size: 130%;
+    font-style: normal;  
+    background-color:#132A13;
+    color: #ECF39E;
+    margin: 0;
+    padding: 100px;
+}
+
+header {
+    background-color: transparent;
+    text-align: center;
+    padding: 1em 0;
+    font-family: "Dancing Script", cursive;
+    color: #bc4749;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 200%;
+    font-style: normal; 
+   
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+
+
+#form-section,
+#lista-section {
+    margin-bottom: 40px;
+   
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-size: 150%;
+}
+
+button {
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+   font-size: 120%;
+   background-color: #bc4749;
+   color: white;
+   padding: 15px 25px;
+   border-radius: 10px;
+   border: none; 
+   cursor: pointer;
+}
+   
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    border: 5px solid #bc4749;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    input {
+        width: 100%;
+    }
+}

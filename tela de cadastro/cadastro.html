@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <title>Life goes on</title>
+</head>
+<body>
+    <header>
+        <h1>life goes on</h1>
+    </header>
+    <main>
+        <section id="form-section">
+            <h2>Digite aqui as informações</h2>
+            <form id="cadastroForm">
+                <label for="Planta">Planta:</label>
+                <input type="text" id="Planta" required>
+
+                <label for="Espécie">Espécie:</label>
+                <input type="text" id="Espécie" required>
+
+                <button type="button" onclick="cadastrarDado()">Cadastrar</button>
+            </form>
+        </section>
+
+        <section id="lista-section">
+            <h2>Você pode conferir seus dados cadastrados logo abaixo<span class="material-symbols-outlined"> eco</span> </h2>
+            <ul id="listaDados"></ul>
+            <a href="/index.html"> <button>Volte ao inicio</button></a>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

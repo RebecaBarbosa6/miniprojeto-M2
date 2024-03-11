@@ -1,0 +1,52 @@
+body { 
+    background-color:#132A13;
+    color: #ECF39E;
+    margin: 100px;
+    padding: 100px;
+}
+
+h1{
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-size: 400%;
+    font-style: normal;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    font-family: "Dancing Script", cursive;
+    color: #bc4749;
+    font-weight: 400;
+    font-size: 400%;
+    font-style: normal; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ section{
+    font-family: "Old Standard TT", serif;
+    font-weight: 400;
+    font-size: 150%;
+    font-style: normal;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+button{
+   font-family: "Old Standard TT", serif;
+   font-weight: 400;
+   font-size: 150%;
+   background-color: #bc4749;
+   color: white;
+   padding: 15px 25px;
+   border-radius: 10px;
+   text-decoration: none;
+   box-shadow: none;
+   border: none;
+   cursor: pointer;
+}
